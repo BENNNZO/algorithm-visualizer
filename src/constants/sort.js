@@ -7,4 +7,8 @@ export const sort = [
         title: "Gnome",
         link: '/sort/gnome'
     },
+    {
+        title: "Radix",
+        link: '/sort/radix'
+    },
 ]

@@ -151,7 +151,7 @@ export default function page() {
                     </button>
                 </div>
                 <span className='block w-full h-px bg-slate-600' />
-                <div className='flex flex-row items-end h-full w-full justify-around gap-1'>
+                <div className='flex flex-row items-end h-full w-full justify-around gap-0.5'>
                     {array.map((e, i) => {
                         return (
                             <motion.div

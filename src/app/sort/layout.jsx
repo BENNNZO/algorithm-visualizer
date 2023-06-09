@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { toner } from '@/utils/playTone';
 
-export default function page() {
+export default function layout() {
     const { push } = useRouter()
 
     const [speed, setSpeed] = useState(50)
