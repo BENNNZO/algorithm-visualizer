@@ -86,8 +86,8 @@ export default function page() {
     }, [speed, sorting])
 
     return (
-        <div className='flex flex-col p-24 bg-gray-950 h-screen items-start justify-around'>
-            <div className='flex flex-col w-full h-full bg-gray-800 shadow-lg p-5 rounded-lg border border-gray-700 gap-5'>
+        <div className='flex flex-col p-20 bg-gray-950 h-screen items-start justify-around'>
+            <div className='flex flex-col w-full h-full bg-gray-800 shadow-lg p-5 rounded-lg border-gray-700 gap-5'>
                 <div className='flex flex-row justify-between items-center'>
                     <div className='flex flex-row gap-5 h-full'>
                         <button 
@@ -98,7 +98,7 @@ export default function page() {
                                     setArray(prev => shuffle(prev))
                                 }
                             }}
-                            className={`bg-slate-700 border border-slate-500 px-3 py-1 rounded-md text-slate-300 transition-all ${sorting ? 'opacity-50 cursor-not-allowed' : ''}`}
+                            className={`bg-slate-700 border-slate-500 px-3 py-1 rounded-md text-slate-300 transition-all ${sorting ? 'opacity-50 cursor-not-allowed' : ''}`}
                         >
                             SHUFFLE
                         </button>
@@ -110,11 +110,11 @@ export default function page() {
                                     setSorting(true)
                                 }
                             }}
-                            className={`bg-slate-700 border border-slate-500 px-3 py-1 rounded-md text-slate-300 transition-all ${sorting ? 'opacity-50 cursor-not-allowed' : ''}`}
+                            className={`bg-slate-700 border-slate-500 px-3 py-1 rounded-md text-slate-300 transition-all ${sorting ? 'opacity-50 cursor-not-allowed' : ''}`}
                         >
                             SORT
                         </button>
-                        <div className={`flex flex-row gap-2 items-center h-full bg-slate-700 border border-slate-500 rounded-md px-3 ${sorting ? 'opacity-50 cursor-not-allowed' : ''}`}>
+                        <div className={`flex flex-row gap-2 items-center h-full bg-slate-700 border-slate-500 rounded-md px-3 ${sorting ? 'opacity-50 cursor-not-allowed' : ''}`}>
                             <p className='text-slate-300'>AMOUNT</p>
                             <input
                                 className={`appearance-none bg-slate-800 h-2 rounded-full ${sorting ? 'pointer-events-none' : ''}`}
@@ -129,7 +129,7 @@ export default function page() {
                                 }} 
                             />
                         </div>
-                        <div className='flex flex-row gap-2 items-center h-full bg-slate-700 border border-slate-500 rounded-md px-3'>
+                        <div className='flex flex-row gap-2 items-center h-full bg-slate-700 border-slate-500 rounded-md px-3'>
                             <p className='text-slate-300'>SPEED</p>
                             <input
                                 className='appearance-none bg-slate-800 h-2 rounded-full'
@@ -145,7 +145,7 @@ export default function page() {
                         onClick={() => {
                             push('/')
                         }}
-                        className={`bg-slate-500 border border-slate-400 px-3 py-1 rounded-md text-slate-200 transition-all`}
+                        className={`bg-slate-500 border-slate-400 px-3 py-1 rounded-md text-slate-200 transition-all`}
                     >
                         BACK
                     </button>

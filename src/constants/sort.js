@@ -6,5 +6,5 @@ export const sort = [
     {
         title: "Gnome",
         link: '/sort/gnome'
-    }
+    },
 ]
