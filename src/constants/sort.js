@@ -11,4 +11,8 @@ export const sort = [
         title: "Radix",
         link: '/sort/radix'
     },
+    {
+        title: "Test",
+        link: '/sort/gnome_copy'
+    },
 ]
