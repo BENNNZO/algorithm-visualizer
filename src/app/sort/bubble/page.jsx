@@ -89,7 +89,7 @@ export default function page() {
         <div className='flex flex-col p-24 bg-gray-950 h-screen items-start justify-around'>
             <div className='flex flex-col w-full h-full bg-gray-800 shadow-lg p-5 rounded-lg border border-gray-700 gap-5'>
                 <div className='flex flex-row justify-between items-center'>
-                    <div className='flex flex-row gap-5'>
+                    <div className='flex flex-row gap-5 h-full'>
                         <button 
                             onClick={() => {
                                 if (!sorting) {
